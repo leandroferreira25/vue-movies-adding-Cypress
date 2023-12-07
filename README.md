@@ -22,3 +22,16 @@ yarn
 # serve with hot reload at localhost:3000
 yarn dev
 ```
+## Running Test
+```
+# install cypress dependencies
+
+# run test
+npx cypress run
+or
+yarn cypress run
+
+# run test for a single test file
+npm run cy:run -- --record --spec "cypress/e2e/my-spec.cy.js"
+
+```
